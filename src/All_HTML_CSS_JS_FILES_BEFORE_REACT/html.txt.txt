@@ -1,0 +1,1 @@
+Initially all html css js files of projects are to be included here. After that we can convert it to react
