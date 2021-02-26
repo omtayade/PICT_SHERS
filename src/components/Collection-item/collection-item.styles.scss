@@ -4,6 +4,8 @@
     flex-direction: column;
     height: 300px;
     align-items: center;
+    // border: 2px solid white;
+    // border-radius: 25%;
 
 
     &:hover {
@@ -28,7 +30,11 @@
       height: 95%;
       background-size: cover;
       background-position: center;
-      margin-bottom: 5px;
+      margin-bottom: 9px;
+      border: 0.5px solid white;
+      border-radius: 10%;
+      padding-bottom: 5px;
+      box-shadow: 0 0 16px 0 rgb(1, 169, 211);
     }
   
     .collection-footer {

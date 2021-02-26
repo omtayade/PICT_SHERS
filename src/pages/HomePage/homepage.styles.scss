@@ -1,10 +1,43 @@
 .homepage{
-    
+
+    background-color: #121212;
+
+   
+    .buysvg{
+        // width: 335px;
+        // height: 300px;
+        // margin-bottom: 100px;
+        // margin-left: 40px;
+        position: "relative";
+        z-index: 2;
+    }
+    .sellsvg{
+    //     width: 300px;
+    // height: 61px;
+    // margin-bottom: 120px;
+    // margin-left: 650px;
+    // margin-right: 40px;
+    position: "relative";
+    z-index: 2;
+    }
+    .backgroundcurve{
+        height: auto;
+        position: "relative";
+        z-index: 1;
+        .cls-1 {
+            //  fill:rgba(22,164,189,.767) ;
+             fill:#0cf;
+            stroke: #fff;
+            stroke-miterlimit: 10;
+        }
+    }
 
    
     .recommendation{
-        background-color:  #18063F;
+        background-color:#252424c2;
         border-radius: 25px;
-        border: 2px solid #18063F;
+        border: 1px solid rgba(0, 204, 255, 0.822);
+        box-shadow: 0 0 16px 0 rgb(1, 169, 211);
+        margin: 0px 30px 45px 30px;
     }
 }
