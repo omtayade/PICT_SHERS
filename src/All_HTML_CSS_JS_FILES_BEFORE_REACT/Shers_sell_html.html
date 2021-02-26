@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Shers_sell.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class='app'>
+        <h2 class='category'>Choose Category</h2>
+        <div class='categories'>
+
+            <div class="box" style="justify-content: center; display: flex;  width: 75px; height: 75px; border: 1px solid black; border-radius: 50%;">
+                <h3 style="margin: auto; text-align: center; font-size: medium; ">Books</h3>
+            </div>
+
+            <div class="box" style="justify-content: center; display: flex;  width: 75px; height: 75px; border: 1px solid black; border-radius: 50%;">
+                <h3 style="margin: auto; text-align: center; font-size: medium; ">Graphics material</h3>
+            </div>
+
+
+
+            <!-- <h3 class="category1" >Books</h3> -->
+            <!-- <h3 class='category2'>Graphics material</h3> -->
+        </div>
+        <div>
+            <form >
+                <label for='book_name'>Book Name</label>
+                <input type="text" id='book_name' name="bookName" placeholder="Enter book name" >
+                  <br>
+
+                <label for="book-type">Book Type</label>
+                <select id="book-type" name="bookType" >
+                    <option> Co-curricullar</option>
+                    <option>Reference Book</option>
+                    <option>Others</option>
+                    
+                </select>
+                <br>
+
+                <label for="bookDescription">Book Description</label>
+                <textarea id="bookDescription" name="bookDescription" rows="4" cols="50">
+                   
+                   
+                </textarea>
+                <br>
+                <label for='set-price'>Set Price</label>
+                <input type="text" id='set-price' name="setPrice" placeholder="Enter expected price">
+                <br>
+                <label for='meeting-place'>Meeting Place</label>
+                <input type="text" id='book_name' name="meetingPlace" placeholder="Enter meeting place" >
+                <br>
+
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
