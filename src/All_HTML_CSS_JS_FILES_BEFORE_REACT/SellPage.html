@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head >
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/20499deb98.js" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" media="mediatype and|not|only (expressions)" href="print.css">
+        <link rel="stylesheet" href="StyleForSell.css">
+        <title >PICT SHERS</title>
+        </head>
+        <body>
+            <nav class="flex-container2">
+                <div class="l">
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    <label class="logo">PICT SHERS</label>
+                </div>
+                <div class="s flex-container3">
+                    <input type ='search' className='search option' placeholder='Search...' size='50'/>
+                    <button type="submit"><i class="fas fa-search fa-2x"></i></button>
+                        <a href="">Home</a>
+                        <a href="">Login/Register</a>
+                        <a href="" alt="cart"><i class="fas fa-cart-plus"></i></a>
+                </div>
+            </nav>
+
+            <div class="flex-column main">
+                <div class="flex-row Category">
+                    <p>Choose Category</p>
+                </div>
+                <div class="menu flex-container">
+                    <div id="menu">
+                        <a href="/books">
+                            <div id="img"><i class="fas fa-book fa-3x"></i></div>
+                            <!-- <img src="books.png" alt="" onclick="" > -->
+                          <p>Books
+                          </p>
+                          </a>
+                    </div>
+                    <div id="menu">
+                        <a href="/ebooks">
+                            <div id="img"><i class="fas fa-file-alt fa-3x"></i></div>
+                            <!-- <img src="" alt="" onclick="" > -->
+                          <p>E-Books
+                          </p>
+                          </a>
+                    </div>
+                    <div id="menu">
+                        <a href="/materials">
+                            <div id="img"><i class="fas fa-drafting-compass fa-3x"></i></div>
+                            <!-- <img src="" alt="" onclick="" > -->
+                          <p>Materials
+                          </p>
+                          </a>
+                    </div>
+                </div>
+                <div class="form">
+                    <form action="/" method="POST" class="form">
+                        <div class="disp">
+                            <label for="name" >Enter Book Name :    </label>
+                            <input type="text" id="name" placeholder="Name..." autocomplete="on" name="name">
+                        </div>
+                        <div class="disp">
+                            <label class="name" for="name">Book Type :          </label>
+                            <select class="custom-select" id="">
+                              <option selected>Choose...</option>
+                              <option value="1">College</option>
+                              <option value="2">Curriculum</option>
+                              <option value="3">Reference Book</option>
+                              <option value="4">Others</option>
+                            </select>
+                          </div>
+                          <div class="disp flex-row">
+                            <label for="description">Book Description :</label>
+                            <textarea id="description" placeholder="Enter.." autocomplete="on" name="description"></textarea>
+                          </div>
+                          <div class="disp">
+                            <label class="name" for="name">Condition :</label>
+                            <select class="custom-select" id="">
+                              <option selected>Choose...</option>
+                              <option value="1">Poor</option>
+                              <option value="2">Fair</option>
+                              <option value="3">Very Good</option>
+                              <option value="4">As New</option>
+                            </select>
+                          </div>
+                          <div class="disp">
+                            <label for="price">Selling Price :</label>
+                            <input type="number" step="1" id="price" placeholder="0.0" autocomplete="on" name="price" >
+                          </div>
+                          <div class="disp">
+                              <label for="photos flex-container">Add Photos: </label><br>
+                              <div class="pics"><input type="file" id="photos" autocomplete="on" name="photos"></div>
+                              <div class="pics"><input type="file" id="photos" autocomplete="on" name="photos"></div>
+                              <div class="pics"><input type="file" id="photos" autocomplete="on" name="photos"></div>
+                              <div class="pics"><input type="file" id="photos" autocomplete="on" name="photos"></div>
+                              <div class="pics"><input type="file" id="photos" autocomplete="on" name="photos"></div>
+                              <div class="pics"><input type="file" id="photos" autocomplete="on" name="photos"></div>
+                              <div class="pics"><input type="file" id="photos" autocomplete="on" name="photos"></div>
+                          </div>
+                          <div class="disp">
+                            <label for="place">Preferred Meeting Place :</label>
+                            <input type="text" id="place" autocomplete="on" placeholder="Enter Place..." name="place">
+                          </div>
+                        <div><button type="submit" class="button">+ SELL</button></div>
+                      </form>
+                </div>
+            </div>
+
+
+
+
+        </body>
+            <div id="footer" >
+                <div id="pictshers"><h1>PICT SHERS</h1></div>
+                <div id="categories">
+                    <ul>  
+                        <h1>categories</h1>  
+                        <li>books</li> 
+                        <li>graphics material</li>  
+                        <li>ebooks</li>  
+                   </ul></div>
+                <div id="contact">
+                    <ul>  
+                    <h5> <a href="https://www.hackerrank.com/" >about us</h5> </a> 
+                    <h5> <a href="https://www.hackerrank.com/">contact us </h5></a> 
+                     
+                    </ul>
+                </div>
+                <div id="creator"><h5>Made With ❤️ from PICT SHERS</h5></div>
+            </div>
+</html>

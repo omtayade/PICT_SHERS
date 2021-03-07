@@ -2,33 +2,35 @@
 <html lang="en">
     <head >
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <script src="https://use.fontawesome.com/84352ff81d.js"></script>
-        <script src="https://kit.fontawesome.com/c376080933.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/20499deb98.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" media="mediatype and|not|only (expressions)" href="print.css">
+        <link rel="stylesheet" href="style3.css">
         <title >PICT SHERS</title>
         </head>
         <body>
-            <!-- <header>
-                <ul id="left-nav">
-                    <li>PICT SHERS</li>
-                </ul>
-                <ul id="right-nav">
-                    <li><form class="search-form">
-                        <input type="text" placeholder="Search" size="50">
-                        <i class="fas fa-search"></i>
-                    </form></li>
-                    <li><a href="">Home</a> </li>
-                    <li><a href="">Login/Register</a> </li>
-                    <li><a href="" alt="cart"><i class="fas fa-cart-plus"></i></a> </li>
-                </ul>
-        </header> -->
+            <nav class="flex-container2">
+                <div class="l">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <label class="logo">PICT SHERS</label>
+            </div>
+            <div class="s flex-container3">
+                <input type ='search' className='search option' placeholder='Search...' size='50'/>
+                <button type="submit"><i class="fas fa-search fa-2x"></i></button>
+                    <a href="">Home</a>
+                    <a href="">Login/Register</a>
+                    <a href="" alt="cart"><i class="fas fa-cart-plus"></i></a>
+            </div>
+            </nav>
             <div class="flex-container menu">
                 <div id="menu">
                     <a href="/books">
-                        <div id="img">
-                            <i class="fa fa-book fa-3x" aria-hidden="true"></i>
-                        </div>
+                        <div id="img"><i class="fas fa-book fa-3x"></i></div>
                         <!-- <img src="books.png" alt="" onclick="" > -->
                       <p>Books
                       </p>
@@ -36,9 +38,7 @@
                 </div>
                 <div id="menu">
                     <a href="/ebooks">
-                        <div id="img">
-                            <i class="fa fa-file-text fa-3x" aria-hidden="true"></i>
-                        </div>
+                        <div id="img"><i class="fas fa-file-alt fa-3x"></i></div>
                         <!-- <img src="" alt="" onclick="" > -->
                       <p>E-Books
                       </p>
@@ -46,9 +46,7 @@
                 </div>
                 <div id="menu">
                     <a href="/materials">
-                        <div id="img">
-                            <i class="fas fa-drafting-compass fa-3x" aria-hidden="true"></i>
-                        </div>
+                        <div id="img"><i class="fas fa-drafting-compass fa-3x"></i></div>
                         <!-- <img src="" alt="" onclick="" > -->
                       <p>Materials
                       </p>
@@ -140,26 +138,66 @@
                       </p>
                       </a>
                 </div>
+                <div id="gallery">
+                    <a href="/books/13">
+                        <img src="" alt="" onclick="" >
+                      <p>Book13
+                      </p>
+                      </a>
+                </div>
+                <div id="gallery">
+                    <a href="/books/14">
+                        <img src="" alt="" onclick="" >
+                      <p>Book14
+                      </p>
+                      </a>
+                </div>
+                <div id="gallery">
+                    <a href="/books/15">
+                        <img src="" alt="" onclick="" >
+                      <p>Book15
+                      </p>
+                      </a>
+                </div>
+                <div id="gallery">
+                    <a href="/books/16">
+                        <img src="" alt="" onclick="" >
+                      <p>Book16
+                      </p>
+                      </a>
+                </div>
+                <div id="gallery">
+                    <a href="/books/17">
+                        <img src="" alt="" onclick="" >
+                      <p>Book17
+                      </p>
+                      </a>
+                </div>
+                <div id="gallery">
+                    <a href="/books/18">
+                        <img src="" alt="" onclick="" >
+                      <p>Book18
+                      </p>
+                      </a>
+                </div>
             </div>
-       <footer >
-                <section id="pictshers"><h1>PICT SHERS</h1></section>
-                <section id="categories">
+        </body>
+            <div id="footer" >
+                <div id="pictshers"><h1>PICT SHERS</h1></div>
+                <div id="categories">
                     <ul>  
                         <h1>categories</h1>  
                         <li>books</li> 
                         <li>graphics material</li>  
                         <li>ebooks</li>  
-                   </ul></section>
-                <section id="contact">
+                   </ul></div>
+                <div id="contact">
                     <ul>  
-                    <h5>about us</h5>  
-                    <h5>contact us </h5>  
+                    <h5> <a href="https://www.hackerrank.com/" >about us</h5> </a> 
+                    <h5> <a href="https://www.hackerrank.com/">contact us </h5></a> 
+                     
                     </ul>
-                </section>
-                <section id="bottom"><h5>Made With ❤️ from PICT SHERS</h5></section>     
-            </footer>
-      </body>
-
-
-
+                </div>
+                <div id="creator"><h5>Made With ❤️ from PICT SHERS</h5></div>
+            </div>
 </html>
