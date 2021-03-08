@@ -5,9 +5,9 @@ import HomePage from './pages/HomePage/homepage.component';
 import Header from './components/Headers/header.component'
 // import {auth} from './firebase/firebase.utils'
 import './App.css';
-// import {Route, Switch} from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
 
-
+import BuyPage from './pages/BuyPage/buypage.component'
 
 class App extends React.Component {
  
@@ -19,8 +19,11 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header/>
-        <HomePage/>
-       
+        <Switch>
+          <Route exact path='/' component={HomePage}/>
+          <Route exact path='/buy' component={BuyPage} />
+        </Switch>
+        
       </div>
    );
   }
