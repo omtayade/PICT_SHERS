@@ -40,7 +40,7 @@ class BuyPage extends React.Component{
         return(
            
             <div className='buypage'>
-                <div class="flex-container menu">
+                <div className="flex-container menu">
                     <div id="menu" onClick={this.handleClickOnBook}>
                         <a href="/books">
                             <div id="img">

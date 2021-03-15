@@ -1,6 +1,6 @@
 import React from 'react'
 import SHOP_DATA from '../App.data'
-import './EbookGallery.styles.scss'
+// import './EbookGallery.styles.scss'
 import Gallery from '../Gallery/Gallery.component'
 
 class EbookGallery extends React.Component{
