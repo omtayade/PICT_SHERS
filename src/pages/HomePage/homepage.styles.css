@@ -1,0 +1,50 @@
+.homepage {
+    background-color: #121212;
+}
+.homepage .buysvg {
+    width: 40vw;
+    height: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+.homepage .sellsvg {
+    width: 40vw;
+    height: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 3.5vh;
+}
+.homepage .backgroundcurve {
+    height: auto;
+    position: "relative";
+    z-index: 1;
+}
+.homepage .backgroundcurve .cls-1 {
+    fill: #0cf;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+}
+.homepage .recommendation {
+    background-color: #252424 c2;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 204, 255, 0.822);
+    box-shadow: 0 0 16px 0 #01a9d3;
+    margin: 0px 30px 45px 30px;
+}
+@media only screen and (min-width: 1200px) {
+    .homepage .buysvg {
+        width: 33vw;
+        height: 33vw;
+   }
+    .homepage .sellsvg {
+        width: 33vw;
+        height: 33vw;
+        margin-bottom: 10vh;
+   }
+}

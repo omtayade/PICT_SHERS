@@ -7,7 +7,7 @@
         {
           id: 1,
           name: 'Brown Brim',
-          imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
+          imageUrl: 'https://m.media-amazon.com/images/I/41gr3r3FSWL.jpg',
           price: 25
         },
         {

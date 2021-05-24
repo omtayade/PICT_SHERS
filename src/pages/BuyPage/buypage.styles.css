@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.menu {
+    justify-content: space-around;
+    margin: 0% 10%;
+}
+.flex-container div#menu {
+    margin: 8px 5px;
+    float: right;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+.flex-container div#menu p {
+    margin: auto auto;
+    background-color: #102a43;
+    color: #f0f4f8;
+    font-family: 'Roboto', sans-serif;
+}
+/* .flex-container div#menu img{
+    width:100%;
+    height:auto;
+    border-radius: 100%;
+}
+*/
+.flex-container div#menu #img {
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+    background-color: #c9f7f2;
+    margin: 10px auto;
+    display: flex;
+}
+.flex-container div#menu:hover #img {
+    opacity: 0.6;
+}
+.flex-container div#menu #img i {
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    color: #102a43;
+}
+a {
+    text-decoration: none;
+}
+.gallery {
+    justify-content: center;
+    margin: 2% 10%;
+    padding: 2%;
+    background: #334e6b;
+    border-radius: 60px;
+}
+.flex-container div#gallery {
+    background: #829ab1;
+    margin: 8px 5px;
+    border: 1px solid #829ab1;
+    float: right;
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+.flex-container div#gallery:hover {
+    border: 1px solid white;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+.flex-container div#gallery p {
+    background-color: #829ab1;
+    color: #f0f4f8;
+    font-family: 'Roboto', sans-serif;
+    margin: auto auto;
+}
+p {
+    color: #0c0c0c;
+    font-size: larger;
+    background-color: #00ff9d;
+    width: 50px;
+    display: inline;
+    margin-right: 45%;
+}
+body {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+}
+footer {
+    width: 100%;
+    height: auto;
+    background: #6cf;
+}
+#pictshers {
+    display: inline-block;
+    margin-right: 20%;
+}
+#categories {
+    display: inline-block;
+    margin-right: 10%;
+}
+#contact {
+    margin-right: 10%;
+    display: inline-block;
+    width: 12%;
+}
+footer {
+    height: auto;
+    background-color: #18063f;
+    color: white;
+}
+#bottom {
+    position: absolute;
+    display: inline-block;
+}
+@media screen and (max-width: 1026px) {
+    .flex-container div#gallery {
+        width: 150px;
+        height: 150px;
+   }
+}
+.buypage {
+    background-color: #102a43;
+}

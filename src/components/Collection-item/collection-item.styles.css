@@ -1,0 +1,38 @@
+.collection-item {
+    width: 305px;
+    display: block;
+    height: 445px;
+    align-items: center;
+}
+.collection-item:hover {
+    cursor: pointer;
+}
+.collection-item:hover .image {
+    transform: scale(1.1);
+    transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+.collection-item .image {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 14px;
+    border: 0.5px solid white;
+    border-radius: 10%;
+    padding-bottom: 5px;
+    box-shadow: 0 0 16px 0 #01a9d3;
+}
+.collection-item .collection-footer {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.collection-item .collection-footer .name {
+    width: 90%;
+    margin-bottom: 15px;
+}
+.collection-item .collection-footer .price {
+    width: 10%;
+}

@@ -3,7 +3,7 @@ import SHOP_DATA from '../../components/App.data'
 import BookGallery from '../../components/BookGallery/BookGallery.component'
 import EbookGallery from '../../components/EbookGallery/EbookGallery.component'
 import GraphicsGallery from '../../components/GraphicsGallery/GraphicsGallery.component'
-import './buypage.styles.scss'
+import './buypage.styles.css'
 class BuyPage extends React.Component{
     constructor(props){
         super(props);

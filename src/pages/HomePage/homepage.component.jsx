@@ -5,7 +5,7 @@ import {ReactComponent as HOME_BACKGROUND }  from '../../assets/Home_background.
 import {ReactComponent as BUY }  from '../../assets/girl_with_button.svg'
 import {ReactComponent as SELL }  from '../../assets/send_with_boy.svg'
 import {Link} from 'react-router-dom'
-import './homepage.styles.scss'
+import './homepage.styles.css'
 class HomePage extends React.Component{
     constructor(props){
         super(props);

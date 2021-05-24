@@ -1,0 +1,31 @@
+.box1 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(34,34,34);
+
+}
+.sign-in {
+    width: 90%;
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sign-in .title3 {
+    margin: 10px 0;
+}
+.sign-in .buttons {
+    display: flex;
+    text-align: center;
+    justify-content: start;
+}
+.switchPage {
+    width: 90%;
+    max-width: 380px;
+    display: flex;
+    margin: auto;
+}
