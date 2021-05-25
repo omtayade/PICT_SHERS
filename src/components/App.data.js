@@ -6,56 +6,56 @@
       items: [
         {
           id: 1,
-          name: 'Brown Brim',
-          imageUrl: 'https://m.media-amazon.com/images/I/41gr3r3FSWL.jpg',
+          name: 'Elon Musk',
+          imageUrl: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0623/9780062301239.jpg',
           price: 25
         },
         {
           id: 2,
-          name: 'Blue Beanie',
-          imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+          name: 'The Algorith Design Manual',
+          imageUrl: 'https://2.bp.blogspot.com/-6sb0_5w2EHk/VfbWW3uDSVI/AAAAAAAADv8/8cztRz5tlKI/s320/The%2BAlgorithm%2BDesign%2BManual.jpg',
           price: 18
         },
         {
           id: 3,
-          name: 'Brown Cowboy',
-          imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
+          name: 'The Enigma',
+          imageUrl: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/7847/9781784700089.jpg',
           price: 35
         },
         {
           id: 4,
-          name: 'Grey Brim',
-          imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
+          name: 'Learn SQL',
+          imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/41dUxied4AL._SX258_BO1,204,203,200_.jpg',
           price: 25
         },
         {
           id: 5,
-          name: 'Green Beanie',
-          imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
+          name: 'Java Generics',
+          imageUrl: 'https://miro.medium.com/max/498/0*ocTXyJWtLnfKiLFs.jpg',
           price: 18
         },
         {
           id: 6,
-          name: 'Palm Tree Cap',
-          imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
+          name: 'Einstein',
+          imageUrl: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8473/9781847390547.jpg',
           price: 14
         },
         {
           id: 7,
-          name: 'Red Beanie',
-          imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
+          name: 'Quantum Mechanics',
+          imageUrl: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141977812.jpg',
           price: 18
         },
         {
           id: 8,
-          name: 'Wolf Cap',
-          imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
+          name: 'R for Data Science',
+          imageUrl: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4919/9781491910399.jpg',
           price: 14
         },
         {
           id: 9,
-          name: 'Blue Snapback',
-          imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
+          name: 'A Briefer History',
+          imageUrl: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/5930/9780593056974.jpg',
           price: 16
         }
       ]

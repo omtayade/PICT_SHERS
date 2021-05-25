@@ -15,6 +15,7 @@ import './App.css';
 import {Route, Switch , Redirect} from 'react-router-dom';
 import { ToastContainer } from "react-toastify";
 import BuyPage from './pages/BuyPage/buypage.component'
+import SellPage from './pages/Sell page/sellpage.component'
 // import SignIn from './components/Sign-In/signIn.component'
 // import SignUp from './components/Sign-Up/SignUp.component';
 import SignIn from "./pages/sign-in/sign-in.component";
@@ -61,6 +62,8 @@ class App extends React.Component {
         <Switch>
           <Route exact path='/' component={HomePage}/>
           <Route exact path='/buy' component={BuyPage} />
+          <Route exact path='/sell' component={SellPage} />
+
           <Route exact path='/checkout' component={CheckoutPage} />
           <Route exact path="/developers" component={Developers} />
 

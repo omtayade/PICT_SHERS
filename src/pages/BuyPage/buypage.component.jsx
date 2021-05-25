@@ -41,30 +41,27 @@ class BuyPage extends React.Component{
            
             <div className='buypage'>
                 <div className="flex-container menu">
-                    <div id="menu" onClick={this.handleClickOnBook}>
-                        <a href="/books">
-                            <div id="img">
+                    <div id="menu" onClick={this.handleClickOnBook} style={{boxShadow:`${this.state.pointer =="bookPtr"?"0 0 16px 0 #01a9d3":"none"}`}}>
+                            <div id="img" >
                                 {/* <FontAwesome className="fa fa-book fa-3x" /> */}
                                
                             </div>
 
                         <p>Books
                         </p>
-                        </a>
                     </div>
-                    <div id="menu" onClick={this.handleClickOnEbook}>
-                        <a href="/ebooks">
-                            <div id="img">
+                    <div id="menu" onClick={this.handleClickOnEbook} style={{boxShadow:`${this.state.pointer =="ebookPtr"?"0 0 16px 0 #01a9d3":"none"}`}}>
+                       
+                            <div id="img" >
                                 {/* <FontAwesome className="fa fa-file-text fa-3x" aria-hidden="true" /> */}
                                 
                             </div>
                        
                         <p>E-Books
                         </p>
-                        </a>
+                       
                     </div>
-                    <div id="menu" onClick={this.handleClickOnGraphics}>
-                        <a href="/materials">
+                    <div id="menu" onClick={this.handleClickOnGraphics} style={{boxShadow:`${this.state.pointer =="graphicPtr"?"0 0 16px 0 #01a9d3":"none"}`}}>
                         <div id="img">
                         {/* <FontAwesome className="fas fa-drafting-compass fa-3x" aria-hidden="true" /> */}
                             
@@ -72,7 +69,6 @@ class BuyPage extends React.Component{
                        
                       <p>Materials
                       </p>
-                      </a>
                     </div>
                 </div>
 

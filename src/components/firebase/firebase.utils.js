@@ -38,6 +38,47 @@ export const createUserProfile = async (userAuth, additionalData) => {
   return userRef;
 };
 
+export const setData = async (productType,productName,productCondition,sellingPrice, meetingPlace, CurrentUser) => {
+  const userAuth =firebase.auth().currentUser;
+ 
+  const nameOfSeller=CurrentUser.displayName;
+  console.log(CurrentUser)
+  const emailIdSeller=CurrentUser.email;
+  const MobileNumberSeller =CurrentUser.phone
+  const soldAt = new Date();
+ console.log(`${nameOfSeller}${emailIdSeller}${MobileNumberSeller}`)
+  const userProductRef = firestore.doc(`users/${firebase.auth().currentUser.uid}/soldProducts/${soldAt}`)
+  const productRef = firestore.doc(`${productType}/${firebase.auth().currentUser.uid}`)
+ 
+  try{
+        await userProductRef.set({
+          
+          productType,
+          productName,
+          sellingPrice,
+          productCondition,
+          meetingPlace
+        });
+        await productRef.set({
+        nameOfSeller,
+        emailIdSeller,
+        MobileNumberSeller,
+        soldAt,
+        productType,
+        productName,
+        productCondition,
+        sellingPrice,
+        meetingPlace
+        });
+        
+    
+  }
+  catch(error){
+      console.log(error.message)
+  }
+  
+  return userProductRef;
+};
 export const auth = firebase.auth();
 export const firestore = firebase.firestore();
 
