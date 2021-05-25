@@ -3,6 +3,9 @@ import {connect} from 'react-redux'
 import { createStructuredSelector } from "reselect";
 import { toast } from "react-toastify";
 import {ReactComponent as BookSvg} from '../../assets/book.svg'
+import {ReactComponent as EbookSvg} from '../../assets/page.svg'
+import {ReactComponent as GraphicSvg} from '../../assets/compass.svg'
+
 import {auth , setData} from '../../components/firebase/firebase.utils'
 import { selectCurrentUser } from "../../redux/user/user.selectors";
 import './sellpage.styles.css'
@@ -120,8 +123,7 @@ class SellPage extends React.Component{
                     <div id="menu" onClick={this.handleClickOnEbook} style={{boxShadow:`${this.state.pointer =="ebookPtr"?"0 0 16px 0 #01a9d3":"none"}`}}>
                         
                             <div id="img">
-                                {/* <FontAwesome className="fa fa-file-text fa-3x" aria-hidden="true" /> */}
-                                
+                                <EbookSvg />                                
                             </div>
                        
                         <p>E-Books
@@ -131,8 +133,7 @@ class SellPage extends React.Component{
                     <div id="menu" onClick={this.handleClickOnGraphics} style={{boxShadow:`${this.state.pointer =="graphicPtr"?"0 0 16px 0 #01a9d3":"none"}`}}>
                         
                         <div id="img">
-                        {/* <FontAwesome className="fas fa-drafting-compass fa-3x" aria-hidden="true" /> */}
-                            
+                            <GraphicSvg />                            
                         </div>
                        
                       <p>Materials
