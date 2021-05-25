@@ -1,4 +1,7 @@
 import React from 'react';
+import {ReactComponent as EbookSvg} from '../../assets/page.svg'
+import {ReactComponent as BookSvg} from '../../assets/book.svg'
+import {ReactComponent as GraphicSvg} from '../../assets/compass.svg'
 import SHOP_DATA from '../../components/App.data'
 import BookGallery from '../../components/BookGallery/BookGallery.component'
 import EbookGallery from '../../components/EbookGallery/EbookGallery.component'
@@ -44,7 +47,7 @@ class BuyPage extends React.Component{
                     <div id="menu" onClick={this.handleClickOnBook} style={{boxShadow:`${this.state.pointer =="bookPtr"?"0 0 16px 0 #01a9d3":"none"}`}}>
                             <div id="img" >
                                 {/* <FontAwesome className="fa fa-book fa-3x" /> */}
-                               
+                               <BookSvg/>
                             </div>
 
                         <p>Books
@@ -54,7 +57,7 @@ class BuyPage extends React.Component{
                        
                             <div id="img" >
                                 {/* <FontAwesome className="fa fa-file-text fa-3x" aria-hidden="true" /> */}
-                                
+                                <EbookSvg/>
                             </div>
                        
                         <p>E-Books
@@ -64,7 +67,7 @@ class BuyPage extends React.Component{
                     <div id="menu" onClick={this.handleClickOnGraphics} style={{boxShadow:`${this.state.pointer =="graphicPtr"?"0 0 16px 0 #01a9d3":"none"}`}}>
                         <div id="img">
                         {/* <FontAwesome className="fas fa-drafting-compass fa-3x" aria-hidden="true" /> */}
-                            
+                            <GraphicSvg/>
                         </div>
                        
                       <p>Materials

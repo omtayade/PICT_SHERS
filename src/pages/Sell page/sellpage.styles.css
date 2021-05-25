@@ -44,6 +44,10 @@
     margin: 10px auto;
     display: flex;
 }
+.flex-container div#menu #img svg{
+    display: flex;
+    justify-content: center;
+}
 .flex-container div#menu:hover #img {
     opacity: 0.6;
 }
