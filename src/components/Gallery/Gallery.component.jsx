@@ -10,8 +10,6 @@ const Gallery =({title ,items})=>(
      <div className="preview">
          {items.map(item =>(
             <GalleryItem key={item.id} item={item} />
-                
-           
          ))}
      </div>
      </div>
