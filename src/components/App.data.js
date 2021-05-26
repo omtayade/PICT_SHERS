@@ -92,7 +92,7 @@
         {
           id: 2,
           name: 'Scale',
-          imageUrl: 'https://lh3.googleusercontent.com/proxy/s0JK5JVZj8recBqx2AE2yiMGN5B6ZyPE6e0wX8FhmwT_Plq0PtCOlxgorsT-JKbz9wFQfPcDA_BOdElTYwFXG5MNKCfnptjcGGaNG97Ofwmr7wxEURXqC8Ng-QGLvA',
+          imageUrl: 'https://www.himalayafineart.com/wp-content/uploads/2018/03/Omega-Roll-N-Draw-Scale.jpg',
           price: 280
         },
         {

@@ -43,7 +43,7 @@ class BuyPage extends React.Component{
         return(
            
             <div className='buypage'>
-                <div className="flex-container menu">
+                <div className="flex-container1 menu1">
                     <div id="menu" onClick={this.handleClickOnBook} style={{boxShadow:`${this.state.pointer =="bookPtr"?"0 0 16px 0 #01a9d3":"none"}`}}>
                             <div id="img" >
                                 {/* <FontAwesome className="fa fa-book fa-3x" /> */}

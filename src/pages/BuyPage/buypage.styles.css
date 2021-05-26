@@ -8,7 +8,7 @@ html, body {
     padding: 0;
     background-color: #121212;
 }
-.flex-container {
+.flex-container1 {
     display: flex;
     flex-direction: row;
     padding-top: 60px;
@@ -16,11 +16,11 @@ html, body {
     justify-content: center;
     align-items: flex-start;
 }
-.menu {
+.menu1 {
     justify-content: space-around;
     margin: 0% 10%;
 }
-.flex-container div#menu {
+.flex-container1 div#menu {
     margin: 8px 5px;
     float: right;
     width: 150px;
@@ -31,9 +31,9 @@ html, body {
     vertical-align: middle;
     display: table-cell;
 }
-.flex-container div#menu p {
+.flex-container1 div#menu p {
     margin: auto auto;
-    background-color: #102a43;
+    background-color: #121212;
     color: #f0f4f8;
     font-family: 'Roboto', sans-serif;
 }
@@ -43,7 +43,7 @@ html, body {
     border-radius: 100%;
 }
 */
-.flex-container div#menu #img {
+.flex-container1 div#menu #img {
     width: 75px;
     height: 75px;
     border-radius: 100px;
@@ -51,10 +51,15 @@ html, body {
     margin: 10px auto;
     display: flex;
 }
-.flex-container div#menu:hover #img {
+.flex-container1 div#menu #img svg{
+    display: flex;
+    justify-content: center;
+    margin: 9px auto;
+}
+.flex-container1 div#menu:hover #img {
     opacity: 0.6;
 }
-.flex-container div#menu #img i {
+.flex-container1 div#menu #img i {
     justify-content: center;
     align-content: center;
     margin: auto;
@@ -70,7 +75,7 @@ a {
     background: #334e6b;
     border-radius: 60px;
 }
-.flex-container div#gallery {
+.flex-container1 div#gallery {
     background: #829ab1;
     margin: 8px 5px;
     border: 1px solid #829ab1;
@@ -84,13 +89,13 @@ a {
     vertical-align: middle;
     display: table-cell;
 }
-.flex-container div#gallery:hover {
+.flex-container1 div#gallery:hover {
     border: 1px solid white;
     margin-top: 0px;
     margin-bottom: 16px;
     cursor: pointer;
 }
-.flex-container div#gallery p {
+.flex-container1 div#gallery p {
     background-color: #829ab1;
     color: #f0f4f8;
     font-family: 'Roboto', sans-serif;
@@ -132,7 +137,7 @@ footer {
     display: inline-block;
 }
 @media screen and (max-width: 1026px) {
-    .flex-container div#gallery {
+    .flex-container1 div#gallery {
         width: 150px;
         height: 150px;
    }

@@ -9,7 +9,7 @@ import Developers from "./pages/Developers/Developers";
 import "react-toastify/dist/ReactToastify.css";
 import Navbar from "./components/Navbar/Navbar";
 import ForgotPassword from "./components/forgot-password/forgot-password.component";
-
+import PersonalDetails from './components/personal-details/personal-details.component'
 import {auth,createUserProfile} from './components/firebase/firebase.utils'
 import './App.css';
 import {Route, Switch , Redirect} from 'react-router-dom';
@@ -79,6 +79,8 @@ class App extends React.Component {
             path="/signin/forgot-password"
             component={ForgotPassword}
           />
+          <Route exact path='/personal-details' component={PersonalDetails} />
+
 
         </Switch>
         

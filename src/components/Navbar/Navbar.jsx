@@ -8,6 +8,7 @@ import CartDropdown from '../Cart-dropdown/cart-dropdown.component'
 import CartIcon from '../Cart-dropdown/cartIcon.component'
 import {ReactComponent as Avatar} from '../../assets/avatar.svg'
 import {ReactComponent as Logo} from '../../assets/Logo.svg'
+import {Link} from 'react-router-dom'
 const Navbar = ({hidden}) => {
   return (
     <div className="navbar">
@@ -17,7 +18,9 @@ const Navbar = ({hidden}) => {
     {hidden?null:<CartDropdown/>}
       <Burger />
      <div className='cartIcon'> <CartIcon/> </div> 
-     <div><Avatar className='avataram' /></div>
+     <Link to='/personal-details'> 
+        <Avatar className='avataram' />
+     </Link>
     </div>
   );
 };
