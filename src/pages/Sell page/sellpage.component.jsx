@@ -110,36 +110,44 @@ class SellPage extends React.Component{
            
             <div className='sellpage'>
                 <div className="flex-container menu">
+                     <div className="choose">
+                        <h2 style={{color:"white"}}>Choose Category:</h2>
+                     </div>
+
+                    <div className='categories'>
                     <div id="menu" onClick={this.handleClickOnBook} style={{boxShadow:`${this.state.pointer =="bookPtr"?"0 0 16px 0 #01a9d3":"none"}`}}>
                         
-                            <div id="img">
-                               <BookSvg />
-                            </div>
+                        <div id="img">
+                           <BookSvg />
+                        </div>
 
                         <p>Books
                         </p>
-                        
+                    
                     </div>
                     <div id="menu" onClick={this.handleClickOnEbook} style={{boxShadow:`${this.state.pointer =="ebookPtr"?"0 0 16px 0 #01a9d3":"none"}`}}>
-                        
-                            <div id="img">
-                                <EbookSvg />                                
-                            </div>
-                       
+                    
+                        <div id="img">
+                            <EbookSvg />                                
+                        </div>
+                   
                         <p>E-Books
                         </p>
-                        
+                    
                     </div>
                     <div id="menu" onClick={this.handleClickOnGraphics} style={{boxShadow:`${this.state.pointer =="graphicPtr"?"0 0 16px 0 #01a9d3":"none"}`}}>
-                        
+                    
                         <div id="img">
                             <GraphicSvg />                            
                         </div>
-                       
-                      <p>Materials
-                      </p>
-                      
+                   
+                        <p>Materials
+                        </p>
+                  
+                     </div>
+
                     </div>
+                    
                 </div>
             <div  className='boxsell'>
             <form onSubmit={this.handleSubmit} >

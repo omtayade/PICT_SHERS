@@ -8,6 +8,7 @@
     padding-bottom: 60px;
     justify-content: center;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 .menu {
     justify-content: space-around;
@@ -136,10 +137,18 @@ footer {
     position: absolute;
     display: inline-block;
 }
-@media screen and (max-width: 1026px) {
+@media screen and (max-width: 768px) {
     .flex-container div#gallery {
         width: 150px;
         height: 150px;
+   }
+   .choose{
+    width: 100%;
+    font-size: 3vw;
+   }
+   .categories{
+       width: 100%;
+       display: inline-block;
    }
 }
 .sellpage {
@@ -164,4 +173,18 @@ footer {
     background-color: #0073CF;
     min-width: 120px;
     
+}
+.choose{
+    width: 100%;
+    margin-left: 30vw;
+    margin-right: 20vw;
+}
+.categories{
+    width: 100%;
+    display: inline-flex;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+.flex-container menu{
+    display: block;
 }
