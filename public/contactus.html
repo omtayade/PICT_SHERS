@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+
+}
+
+body{
+background:#121212
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 2vh;
+  border: 1px solid #ccc;
+  border-radius: 1vh;
+  resize: vertical;
+
+}
+.required{
+color:red;}
+
+form input[required=required]:after,
+form select[required=required]:after,
+form textarea[required=required]:after
+{
+    color: red;
+    content: " *";
+}
+
+form label.required:after
+{
+    color: red;
+    content: " *";
+}
+
+h3{
+text-decoration:none;
+font-size:15px;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 2vh;
+  border: none;
+  border-radius: 1vh;
+  cursor: pointer;
+  margin-left:14vw;
+  margin-right:10vw
+  float: none;
+  margin-top:5vh;
+  width:10vw;
+  height:7vh;
+font-size:2vh;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+label.logo{
+width:20vw;
+height:10vh;}
+
+
+.container {
+  border-radius: 20px;
+  margin-top:5vh;
+margin-right:30vw;
+margin-left:30vw;
+margin-bottom:10vh;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 5vh;
+font-size:15px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 5vh;
+font-size:20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+.logo1 label img{
+width:20vw;
+height:8vh;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .container{
+   margin-top:1vh;
+margin-right:1vw;
+margin-left:1vw;
+margin-bottom:1vh;
+}
+.logo1 label img{
+width:30vw;
+height:10vh;
+align:middle;
+}
+
+  .col-25, .col-75 {
+    width: 100%;
+    margin-top: 0;
+  }
+
+
+   input[type=submit]
+   {    width: 100%;
+    margin-top: 0;
+    margin-right:0;
+    margin-left:0;
+    height:2vh;
+    font-size:10px;
+    padding:0.5px;
+    border-radius:3px;}
+
+    .col-25{
+    font-size:2vw;}
+
+    h3{
+    font-size:2vw;
+    }
+
+    input[type=text], textarea
+    {
+     font-size:2vw;
+     }
+     .logo img{
+     width:30vw;
+     height:10px;
+     }
+
+
+
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="logo1">
+    <label class="logo"><img src="3ad6233c-2412-4512-9d04-691f387c54c4.jpg" style="" /></label>
+  </div>
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" required="required" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" required="required" placeholder="Your last name.."/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="email">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="email" name="email" required="required"placeholder="Email.."/>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Ask question</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." required="required" style="height:13vh"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+    <div class="row">
+      <h3 align="center" >You may call us at 333-333-33</h3>
+      <h3 align="center" >Or</h3>
+      <h3 align="center" >Email: pictshers@gmail.com</h3>
+    </div>
+
+  </form>
+</div>
+
+</body>
+</html>
