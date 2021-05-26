@@ -2,8 +2,11 @@ import React from "react";
 import DevCard from "./DevCard";
 import "./Developers.css";
 import OmDP from "./assets/OmDP.jpg";
-import AmartyaDP from "./assets/AmartyaDP.jpeg";
-import {ReactComponent as avatar} from '../../assets/avatar.svg'
+import SnehadeepDP from "./assets/SnehadeepDP.jpeg";
+import AdityaDP from './assets/AdityaDP.jpeg'
+import AmartyaDP from "./assets/amartya.svg";
+import UmeshDP from "./assets/umesh.svg";
+
 export default function Developers() {
   return (
     <div className="container">
@@ -17,14 +20,14 @@ export default function Developers() {
           mail={"https://omtayade160901@gmail.com"}
         />
         <DevCard
-          picture={null}
+          picture={SnehadeepDP}
           name={"Snehdeep Wagh"}
           linkedIn={"https://www.linkedin.com/in/mayur-jain-904982191"}
           github={"https://github.com/maxcharge"}
           mail={"https://maxcharge788769@gmail.com"}
         />
         <DevCard
-          picture={null}
+          picture={AdityaDP}
           name={"Aditya Vyawhare"}
           linkedIn={"https://www.linkedin.com/in/mayur-jain-904982191"}
           github={"https://github.com/maxcharge"}
@@ -41,7 +44,7 @@ export default function Developers() {
         />
 
         <DevCard
-          picture={null}
+          picture={UmeshDP}
           name={"Umesh Sawant"}
           linkedIn={"https://www.linkedin.com/in/mayur-jain-904982191"}
           github={"https://github.com/maxcharge"}

@@ -21,11 +21,11 @@ const Ul = styled.ul`
   min-width: 70%;
   margin: 0;
   li {
-    padding: 18px 10px;
+    padding: 13px 10px;
   }
   @media (max-width: 768px) {
     flex-flow: column nowrap;
-    background-color: #e85d04;
+    background-color: rgb(40, 103, 178);
     position: fixed;
     transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
     top: 0;

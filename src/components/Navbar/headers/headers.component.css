@@ -10,7 +10,7 @@ li {
   padding-bottom: 0px;
 }
 .active__option {
-  border-bottom: 4px solid orangered;
+  border-bottom: 4px solid #0073CF;
 
 }
 
@@ -19,14 +19,14 @@ li {
 }
 
 .option:hover {
-  border-bottom: 4px solid orangered;
+  border-bottom: 4px solid #0073CF;
   cursor: pointer;
   transition-duration: 200ms;
 }
 @media (max-width: 768px) {
   .navbar ul {
     flex-flow: column nowrap;
-    background-color: #e85d04;
+    background-color: rgb(40, 103, 178);
     position: fixed;
     top: 0;
     right: 0;

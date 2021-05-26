@@ -67,26 +67,26 @@
       items: [
         {
           id: 1,
-          name: 'Adidas NMD',
-          imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF4Xey3ic8G8nYXMuflXHQmQjcKTbwN63Tbg&usqp=CAU',
+          name: 'Solder',
+          imageUrl: 'https://rukminim1.flixcart.com/image/416/416/jrp8r680/soldering-iron/h/z/g/soldering-iron-soldering-iron-kit-soldering-iron-machine-original-imafdfzdumbffcfh.jpeg?q=70',
           price: 220
         },
         {
           id: 2,
-          name: 'Adidas Yeezy',
-          imageUrl: 'https://images.booksense.com/images/022/116/9781801116022.jpg',
+          name: 'Scale',
+          imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0xrDTpRvnZKh_s8gmjbFJQUtKkVomnNDW8w&usqp=CAU',
           price: 280
         },
         {
           id: 3,
           name: 'Black Converse',
-          imageUrl: 'https://m.media-amazon.com/images/I/41IO4SmtO9L.jpg',
+          imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh-_tggTqlMoUQcKDHxkNIpVk0s8XHWSyn6A&usqp=CAU',
           price: 110
         },
         {
           id: 4,
-          name: 'Nike White AirForce',
-          imageUrl: 'https://images1.penguinrandomhouse.com/cover/9780399179532',
+          name: 'Compass',
+          imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPnVNS0iVKNohIs1RBccR9hrtpxsw009PjGw&usqp=CAU',
           price: 160
         },
         {
@@ -97,20 +97,20 @@
         },
         {
           id: 6,
-          name: 'Nike Brown High Tops',
-          imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
+          name: 'Compass box',
+          imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/91RDMN31moL._SX355_.jpg',
           price: 160
         },
         {
           id: 7,
-          name: 'Air Jordan Limited',
-          imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
+          name: 'Air Jordan',
+          imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlUBxMHu_OoEgolBFnEFxQWovsNGRNb3p7Kw&usqp=CAU',
           price: 190
         },
         {
           id: 8,
-          name: 'Timberlands',
-          imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
+          name: 'Timberland scale',
+          imageUrl: 'https://m.media-amazon.com/images/I/61C0cV8bKSL._AC_UL320_.jpg',
           price: 200
         }
       ]
@@ -122,32 +122,32 @@
       items: [
         {
           id: 1,
-          name: 'Black Jean Shearling',
-          imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
+          name: 'Neurocomic',
+          imageUrl: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/9077/9781907704703.jpg',
           price: 125
         },
         {
           id: 2,
-          name: 'Blue Jean Jacket',
-          imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
+          name: 'Being Mortal',
+          imageUrl: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8466/9781846685828.jpg',
           price: 90
         },
         {
           id: 3,
-          name: 'Grey Jean Jacket',
-          imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
+          name: 'THE WHOLE-BRAIN CHILD',
+          imageUrl: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/7803/9781780338378.jpg',
           price: 90
         },
         {
           id: 4,
-          name: 'Brown Shearling',
-          imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
+          name: 'THE HUNGER GAMES',
+          imageUrl: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4071/9781407132105.jpg',
           price: 165
         },
         {
           id: 5,
-          name: 'Tan Trench',
-          imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
+          name: 'LOST OCEAN',
+          imageUrl: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7535/9780753557150.jpg',
           price: 185
         }
       ]

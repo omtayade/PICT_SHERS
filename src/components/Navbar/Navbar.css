@@ -7,7 +7,7 @@
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
-  background: rgb(34,34,34);
+  background: #121212;
 }
 
 .option{
@@ -15,7 +15,8 @@
 }
 
 .logo {
-  padding: 15px 0;
+  padding: 10px 0;
+  width:125px;
 }
 .avataram{
   width: 30px;
@@ -24,10 +25,14 @@
 }
 @media (max-width: 768px) {
   .cartIcon {
-  margin-right: -44vw;   
+  margin-right: -7vw;   
   }
   .avataram{
     margin-right: 13vw;
 
   }
+  .logo{
+    display: block;
+  }
+  
 }

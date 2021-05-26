@@ -59,6 +59,7 @@ class App extends React.Component {
           draggable
           pauseOnHover
         />
+
         <Switch>
           <Route exact path='/' component={HomePage}/>
           <Route exact path='/buy' component={BuyPage} />

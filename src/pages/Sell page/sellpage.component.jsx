@@ -182,8 +182,8 @@ class SellPage extends React.Component{
                 <textarea id="description" placeholder="Enter.." autocomplete="on" name="description"></textarea>
             </div>
 
-            <div className="but">
-              <CustomButton  type="submit">Sell</CustomButton>
+            <div >
+              <CustomButton isGoogleSignIn className="but" type="submit">Sell</CustomButton>
               
             </div>
           </form>
