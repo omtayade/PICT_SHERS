@@ -49,7 +49,6 @@ class BuyPage extends React.Component{
                                 {/* <FontAwesome className="fa fa-book fa-3x" /> */}
                                <BookSvg/>
                             </div>
-
                         <p>Books
                         </p>
                     </div>

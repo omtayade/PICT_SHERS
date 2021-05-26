@@ -68,7 +68,7 @@
         {
           id: 1,
           name: 'Adidas NMD',
-          imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
+          imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF4Xey3ic8G8nYXMuflXHQmQjcKTbwN63Tbg&usqp=CAU',
           price: 220
         },
         {

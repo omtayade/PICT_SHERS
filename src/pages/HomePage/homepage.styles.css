@@ -32,10 +32,10 @@
 }
 .homepage .recommendation {
     background-color: #252424 c2;
-    border-radius: 25px;
+    border-radius: 3vw;
     border: 1px solid rgba(0, 204, 255, 0.822);
     box-shadow: 0 0 16px 0 #01a9d3;
-    margin: 0px 30px 45px 30px;
+    margin: 0px 2vw;
 }
 @media only screen and (min-width: 1200px) {
     .homepage .buysvg {
