@@ -74,25 +74,25 @@
         {
           id: 2,
           name: 'Adidas Yeezy',
-          imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
+          imageUrl: 'https://images.booksense.com/images/022/116/9781801116022.jpg',
           price: 280
         },
         {
           id: 3,
           name: 'Black Converse',
-          imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
+          imageUrl: 'https://m.media-amazon.com/images/I/41IO4SmtO9L.jpg',
           price: 110
         },
         {
           id: 4,
           name: 'Nike White AirForce',
-          imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
+          imageUrl: 'https://images1.penguinrandomhouse.com/cover/9780399179532',
           price: 160
         },
         {
           id: 5,
           name: 'Nike Red High Tops',
-          imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
+          imageUrl: 'https://m5.paperblog.com/i/124/1246360/why-beautiful-book-covers-are-dangerous-L-tdrBMu.jpeg',
           price: 160
         },
         {
