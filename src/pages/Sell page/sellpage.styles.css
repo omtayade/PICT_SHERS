@@ -26,7 +26,7 @@
 }
 .flex-container div#menu p {
     margin: auto auto;
-    background-color: #102a43;
+    background-color: #121212;
     color: #f0f4f8;
     font-family: 'Roboto', sans-serif;
 }
@@ -143,7 +143,7 @@ footer {
    }
 }
 .sellpage {
-    background-color: #102a43;
+    background-color: #121212;
 }
 .boxsell{
     margin: 0 20vw;
@@ -154,8 +154,14 @@ footer {
     border-radius: 2vh;
 }
 .but{
-    margin-left: 20vw;
-    margin-top: 7vh;
-    border-radius: 2vh;
-    margin-inline-end: auto;
+    margin-left: 23vw; 
+     margin-top: 7vh; 
+      border-radius: 2vh;  
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color:white;
+     /* margin-inline-end: auto; */
+    background-color: #0073CF;
+    min-width: 120px;
+    
 }

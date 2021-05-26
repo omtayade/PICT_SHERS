@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(34,34,34);
+    background-color: #121212;
 
 }
 .sign-in {
@@ -16,7 +16,7 @@
     justify-content: center;
 }
 .sign-in .title3 {
-    margin: 10px 0;
+    margin: 77px 0;
 }
 .sign-in .buttons {
     display: flex;
@@ -28,4 +28,8 @@
     max-width: 380px;
     display: flex;
     margin: auto;
+    
+}
+.switchPage h4{
+    color:#6cf
 }
