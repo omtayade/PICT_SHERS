@@ -20,7 +20,8 @@
     /* border: 0.5px solid white; */
     border-radius: 10%;
     padding-bottom: 5px;
-    box-shadow: 0 0 16px 0 #01a9d3;
+    box-shadow: rgba(54, 136, 194, 0.7) 0px 7px 15px 1px;
+    /* box-shadow: 0 0 16px 0 #01a9d3; */
 }
 .collection-item1 .image1 img{
     width: 20vw;
