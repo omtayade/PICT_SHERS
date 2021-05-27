@@ -4,8 +4,9 @@
     margin: 0px 60px 30px 60px;
 }
 .collection-preview .title {
-    font-size: 28px;
-    margin-bottom: 25px;
+    font-size: 3vw;
+    margin: 1vw 0px;
+    color: #FFFFFF;
 }
 .collection-preview .preview {
     display: flex;

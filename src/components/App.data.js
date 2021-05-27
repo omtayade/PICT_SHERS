@@ -6,56 +6,74 @@
       items: [
         {
           id: 1,
-          name: 'Elon Musk',
-          imageUrl: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0623/9780062301239.jpg',
+          name: 'Python Crash Course',
+          imageUrl: 'https://images.booksense.com/images/022/116/9781801116022.jpg',
           price: 25
         },
         {
           id: 2,
-          name: 'The Algorith Design Manual',
-          imageUrl: 'https://2.bp.blogspot.com/-6sb0_5w2EHk/VfbWW3uDSVI/AAAAAAAADv8/8cztRz5tlKI/s320/The%2BAlgorithm%2BDesign%2BManual.jpg',
+          name: 'MySQL',
+          imageUrl: 'https://m.media-amazon.com/images/I/41IO4SmtO9L.jpg',
           price: 18
         },
         {
           id: 3,
-          name: 'The Enigma',
-          imageUrl: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/7847/9781784700089.jpg',
+          name: 'Moral Compass',
+          imageUrl: 'https://images1.penguinrandomhouse.com/cover/9780399179532',
           price: 35
         },
         {
           id: 4,
-          name: 'Learn SQL',
-          imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/41dUxied4AL._SX258_BO1,204,203,200_.jpg',
+          name: 'Magonia',
+          imageUrl: 'https://m5.paperblog.com/i/124/1246360/why-beautiful-book-covers-are-dangerous-L-tdrBMu.jpeg',
           price: 25
         },
         {
           id: 5,
-          name: 'Java Generics',
-          imageUrl: 'https://miro.medium.com/max/498/0*ocTXyJWtLnfKiLFs.jpg',
+          name: 'Escaping Exodus',
+          imageUrl: 'https://kittymariebookreviewshome.files.wordpress.com/2019/10/escapingexoduspb-2-676x1024.jpg?w=676',
           price: 18
         },
         {
           id: 6,
-          name: 'Einstein',
-          imageUrl: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8473/9781847390547.jpg',
+          name: 'Principles Of Analog Electronics',
+          imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/91AJEaq9XcL.jpg',
           price: 14
         },
         {
           id: 7,
-          name: 'Quantum Mechanics',
-          imageUrl: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141977812.jpg',
+          name: 'A Thousand Years To Wait',
+          imageUrl: 'https://kittymariebookreviewshome.files.wordpress.com/2019/10/42631411.jpg?w=312',
           price: 18
         },
         {
           id: 8,
-          name: 'R for Data Science',
-          imageUrl: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4919/9781491910399.jpg',
+          name: 'Relativity',
+          imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/71oow3Rsy5L.jpg',
           price: 14
         },
         {
           id: 9,
-          name: 'A Briefer History',
-          imageUrl: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/5930/9780593056974.jpg',
+          name: 'The Enigma',
+          imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/91BsVzlvTiL.jpg',
+          price: 16
+        },
+        {
+          id: 10,
+          name: 'Harry Potter and the Philosophers Stone',
+          imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/81YOuOGFCJL.jpg',
+          price: 16
+        },
+        {
+          id: 11,
+          name: 'The Fundamentals Of Microprocessor 8085 & 8086',
+          imageUrl: 'https://image1.jdomni.in/product/10072018/1B/C6/B8/DCEF721950D61D52322AA6126F_1531224875858.jpg?fit=around|1024:768',
+          price: 16
+        },
+        {
+          id: 12,
+          name: 'Buy Shivaji: The Great Maratha Book',
+          imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/910WHvI05eL.jpg',
           price: 16
         }
       ]
@@ -68,49 +86,49 @@
         {
           id: 1,
           name: 'Solder',
-          imageUrl: 'https://rukminim1.flixcart.com/image/416/416/jrp8r680/soldering-iron/h/z/g/soldering-iron-soldering-iron-kit-soldering-iron-machine-original-imafdfzdumbffcfh.jpeg?q=70',
+          imageUrl: 'https://www.deltakit.net/wp-content/uploads/2018/05/Soldring-iron-Soldron_25Watt.jpg',
           price: 220
         },
         {
           id: 2,
           name: 'Scale',
-          imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0xrDTpRvnZKh_s8gmjbFJQUtKkVomnNDW8w&usqp=CAU',
+          imageUrl: 'https://lh3.googleusercontent.com/proxy/s0JK5JVZj8recBqx2AE2yiMGN5B6ZyPE6e0wX8FhmwT_Plq0PtCOlxgorsT-JKbz9wFQfPcDA_BOdElTYwFXG5MNKCfnptjcGGaNG97Ofwmr7wxEURXqC8Ng-QGLvA',
           price: 280
         },
         {
           id: 3,
           name: 'Black Converse',
-          imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh-_tggTqlMoUQcKDHxkNIpVk0s8XHWSyn6A&usqp=CAU',
+          imageUrl: 'https://i.ebayimg.com/images/g/U2QAAOSw6Zhc82TZ/s-l400.jpg',
           price: 110
         },
         {
           id: 4,
-          name: 'Compass',
-          imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPnVNS0iVKNohIs1RBccR9hrtpxsw009PjGw&usqp=CAU',
+          name: 'Drafting Compass',
+          imageUrl: 'https://www.alfaplanhold.com/v/vspfiles/photos/2002320-2.jpg?v-cache=1609401859',
           price: 160
         },
         {
           id: 5,
-          name: 'Nike Red High Tops',
-          imageUrl: 'https://m5.paperblog.com/i/124/1246360/why-beautiful-book-covers-are-dangerous-L-tdrBMu.jpeg',
+          name: 'Engineering Instrumation Set',
+          imageUrl: 'https://e-stationary.in/wp-content/uploads/2019/07/ei1.jpg',
           price: 160
         },
         {
           id: 6,
           name: 'Compass box',
-          imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/91RDMN31moL._SX355_.jpg',
+          imageUrl: 'https://www.offimart.com/16934-large_default/hemi-instrument-box-big-size-geometry-box-blue.jpg',
           price: 160
         },
         {
           id: 7,
-          name: 'Air Jordan',
-          imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlUBxMHu_OoEgolBFnEFxQWovsNGRNb3p7Kw&usqp=CAU',
+          name: 'Set Square',
+          imageUrl: 'https://5.imimg.com/data5/SELLER/Default/2021/2/AZ/NI/NJ/2525030/engineering-drawing-tool-250x250.JPG',
           price: 190
         },
         {
           id: 8,
-          name: 'Timberland scale',
-          imageUrl: 'https://m.media-amazon.com/images/I/61C0cV8bKSL._AC_UL320_.jpg',
+          name: 'Calculator',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Casio-fx115ES-5564.jpg/1200px-Casio-fx115ES-5564.jpg',
           price: 200
         }
       ]
@@ -122,32 +140,50 @@
       items: [
         {
           id: 1,
-          name: 'Neurocomic',
-          imageUrl: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/9077/9781907704703.jpg',
+          name: 'All The Stars And Teeth',
+          imageUrl: 'https://i2.wp.com/jesssbookshelf.com/wp-content/uploads/2020/04/all-the-stars-and-teeth.jpg?resize=323%2C500&ssl=1',
           price: 125
         },
         {
           id: 2,
-          name: 'Being Mortal',
-          imageUrl: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8466/9781846685828.jpg',
+          name: 'Cristiano Ronaldo: The Biography',
+          imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/618HW-NG7+L.jpg',
           price: 90
         },
         {
           id: 3,
-          name: 'THE WHOLE-BRAIN CHILD',
-          imageUrl: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/7803/9781780338378.jpg',
+          name: 'Machine Learning',
+          imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/71tk4H0jqpL.jpg',
           price: 90
         },
         {
           id: 4,
-          name: 'THE HUNGER GAMES',
-          imageUrl: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4071/9781407132105.jpg',
+          name: 'Artemis Fowl',
+          imageUrl: 'https://www.booklistqueen.com/wp-content/uploads/artemis-fowl-eoin-colfer.jpg',
           price: 165
         },
         {
           id: 5,
-          name: 'LOST OCEAN',
-          imageUrl: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7535/9780753557150.jpg',
+          name: 'The World Of Ice And Fire',
+          imageUrl: 'https://i.imgur.com/IibDqjf_d.webp?maxwidth=760&fidelity=grand',
+          price: 185
+        },
+        {
+          id: 6,
+          name: 'Object Oriented Programming With C++',
+          imageUrl: 'https://m.media-amazon.com/images/I/410budPzfWL.jpg',
+          price: 185
+        },
+        {
+          id: 7,
+          name: 'Death Note',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/en/6/6f/Death_Note_Vol_1.jpg',
+          price: 185
+        },
+        {
+          id: 8,
+          name: 'Java Programming',
+          imageUrl: 'https://qph.fs.quoracdn.net/main-qimg-f067bd53a994c87dfd41e2fe66323dad',
           price: 185
         }
       ]
